@@ -1,0 +1,18 @@
+* {
+    direction: rtl;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: Shabnam;
+}
+
+body{
+    background-color: lightgray;
+}
+
+html {
+    font-size: 62.5;
+}
+.layout {
+    display: flex;
+    flex-direction: column;
+}

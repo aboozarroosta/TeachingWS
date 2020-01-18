@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Shabnam;
+  src: url("../fonts/Shabnam.eot");
+  src: url("../fonts/Shabnam.eot?#iefix") format("Shabnam-opentype"), url("../fonts/Shabnam.woff") format("woff"), url("../fonts/Shabnam.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  direction: rtl;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: Shabnam; }
+
+body {
+  background-color: lightgray; }
+
+html {
+  font-size: 62.5; }
+
+.layout {
+  display: flex;
+  flex-direction: column; }
+
+.section-header {
+  font-family: Shabnam;
+  margin: 1rem;
+  background-image: linear-gradient(to right bottom, rgba(255, 204, 0, 0.8), rgba(255, 140, 0, 0.8)), url(../img/classroom-1.jpeg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-header__heading-1 {
+    font-size: 4rem;
+    margin-bottom: 1rem; }
+  .section-header__subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem; }
+
+.section-taught {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .section-taught__header {
+    font-size: 3rem; }
