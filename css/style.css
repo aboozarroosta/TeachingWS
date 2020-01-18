@@ -149,5 +149,17 @@ html {
 .icon-whatsapp {
   fill: #098528; }
 
+.icon-mail {
+  fill: #e93838; }
+
+.icon-mobile {
+  fill: #979299; }
+
+.icon-location {
+  fill: red; }
+
+.icon-linkedin {
+  fill: white; }
+
 .u-bottom-margin-med {
   margin-bottom: 2rem !important; }
