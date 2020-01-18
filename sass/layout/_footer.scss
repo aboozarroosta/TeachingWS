@@ -1,0 +1,45 @@
+.footer {
+    height: 20rem;
+    margin-top: -10rem;
+    padding-top: 10rem;
+    background-color: #222;
+    position: relative;
+    z-index: -100;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    &__social-media {
+        /*display: block;
+        position: absolute;
+        bottom:0;
+        right: 0;*/
+        margin-bottom: 0;
+    }
+
+    &__copyright {
+        border-top: 1px solid rgba(goldenrod, .2);
+        margin-top: -1rem;
+        color: goldenrod;
+    }
+
+
+}
+
+.icon {
+    display: inline-block;
+    width: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.icon-instagram {
+    fill: orange;
+}
+
+.icon-telegram {
+    fill: rgb(0, 177, 236);
+}

@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 5px 5px 5px rgba(black,.1);
 
     &__header {
         font-size: 3rem;
@@ -54,15 +53,18 @@
             position: absolute;
 
             &-1 {
+                top:3.4rem;
+                left:-.4rem;
 
             }
 
             &-2 {
-
+                top:3.4rem;
+                left:-.4rem;
             }
 
             &-3 {
-                top:4.5rem;
+                top:4.6rem;
             }
         }
     }

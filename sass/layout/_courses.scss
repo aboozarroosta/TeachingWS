@@ -1,5 +1,27 @@
 .section-courses {
-    height: 30rem;
+    height: 50rem;
     background-color: goldenrod;
-    transform: skewX(10rem);
+    clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
+    text-align: center;
+    
+
+    &__header {
+        margin-top: 6rem;
+        
+    }
+
+    &__list {
+        font-size: 1.5rem;
+        list-style: none;
+
+        &-item {
+            display: inline-block;
+            margin: 2rem 1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            border-radius: 3px;
+            background-color: darkgoldenrod;
+            box-shadow: 3px 3px 3px rgba(black,.2);
+        }
+    }
 }
