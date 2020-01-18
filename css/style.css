@@ -81,7 +81,8 @@ html {
       padding: 1rem;
       border-radius: 3px;
       transform: rotate(-45deg);
-      position: absolute; }
+      position: absolute;
+      box-shadow: 2px 2px 2px; }
       .section-taught__items__caption-1 {
         top: 3.4rem;
         left: -.4rem; }
@@ -131,7 +132,7 @@ html {
   .footer__copyright {
     border-top: 1px solid rgba(218, 165, 32, 0.2);
     margin-top: -1rem;
-    color: goldenrod; }
+    color: rgba(218, 165, 32, 0.7); }
 
 .icon {
   display: inline-block;
@@ -144,6 +145,9 @@ html {
 
 .icon-telegram {
   fill: #00b1ec; }
+
+.icon-whatsapp {
+  fill: #098528; }
 
 .u-bottom-margin-med {
   margin-bottom: 2rem !important; }
