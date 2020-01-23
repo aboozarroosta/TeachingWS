@@ -41,79 +41,79 @@ html {
     font-size: 1.5rem;
     margin-bottom: 1rem; }
 
-.section-taught__header {
-  font-size: 3rem; }
-
-.section-taught__adults {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  position: relative;
-  background: rgba(122, 146, 139, 0.7);
-  margin-top: 2rem;
-  padding-top: 2rem; }
-
-.section-taught__tab-header {
-  font-size: 1.9rem;
-  background-color: darkgrey;
-  display: inline;
-  overflow: hidden;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  position: absolute;
-  border-radius: 3px;
-  right: 0;
-  top: -1rem; }
-
-.section-taught__items {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  border-radius: 5px;
-  background-color: lightgray; }
-  .section-taught__items__card {
-    width: 15rem;
-    background-color: darkgoldenrod;
-    margin: 2rem;
-    border-radius: 5px;
-    overflow: hidden;
+.section-taught {
+  margin-bottom: 2rem; }
+  .section-taught__header {
+    font-size: 3rem; }
+  .section-taught__adults {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all .2s;
-    position: relative; }
-    .section-taught__items__card:hover {
-      transform: translateY(-1rem) scale(1.1); }
-  .section-taught__items__img {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    background: rgba(122, 146, 139, 0.7);
     margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 12rem;
-    height: auto;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); }
-  .section-taught__items__caption {
-    font-weight: 700;
-    background-color: goldenrod;
-    margin-bottom: 2rem;
-    top: 3rem;
-    left: -1rem;
-    padding: .4rem;
-    border-radius: 3px;
-    transform: rotate(-45deg);
+    padding-top: 2rem; }
+  .section-taught__tab-header {
+    font-size: 1.9rem;
+    background-color: darkgrey;
+    display: inline;
+    overflow: hidden;
+    padding-right: .5rem;
+    padding-left: .5rem;
     position: absolute;
-    box-shadow: 2px 2px 2px; }
-    .section-taught__items__caption-1 {
-      top: 3.4rem;
-      left: -.4rem; }
-    .section-taught__items__caption-2 {
-      top: 3.4rem;
-      left: -.4rem; }
-    .section-taught__items__caption-3 {
-      top: 4.6rem; }
+    border-radius: 3px;
+    right: 0;
+    top: -1rem; }
+  .section-taught__items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    background-color: lightgray; }
+    .section-taught__items__card {
+      width: 15rem;
+      background-color: darkgoldenrod;
+      margin: 2rem;
+      border-radius: 5px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all .2s;
+      position: relative; }
+      .section-taught__items__card:hover {
+        transform: translateY(-1rem) scale(1.1); }
+    .section-taught__items__img {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 12rem;
+      height: auto;
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); }
+    .section-taught__items__caption {
+      font-weight: 700;
+      background-color: goldenrod;
+      margin-bottom: 2rem;
+      top: 3rem;
+      left: -1rem;
+      padding: .4rem;
+      border-radius: 3px;
+      transform: rotate(-45deg);
+      position: absolute;
+      box-shadow: 2px 2px 2px; }
+      .section-taught__items__caption-1 {
+        top: 3.4rem;
+        left: -.4rem; }
+      .section-taught__items__caption-2 {
+        top: 3.4rem;
+        left: -.4rem; }
+      .section-taught__items__caption-3 {
+        top: 4.6rem; }
 
 .section-courses {
+  margin-top: 3rem;
   height: 50rem;
   background-color: goldenrod;
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
@@ -163,7 +163,7 @@ html {
   cursor: pointer;
   -webkit-transition: all 0.5s;
   /* Safari 3.1 to 6.0 */
-  transition: all 0.5s; }
+  transition: all 0.2s; }
 
 .tabs label i {
   padding: .5rem;
@@ -182,8 +182,8 @@ html {
   background-color: goldenrod; }
 
 .tab-content * {
-  -webkit-animation: scale 0.7s ease-in-out;
-  -moz-animation: scale 0.7s ease-in-out;
+  -webkit-animation: scale 0.2s ease-in-out;
+  -moz-animation: scale 0.2s ease-in-out;
   animation: scale 0.2s ease-in-out; }
 
 @keyframes scale {
