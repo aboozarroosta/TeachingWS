@@ -1,5 +1,7 @@
 .section-taught {
     margin-bottom: 2rem;
+    text-align: center;
+    
     &__header {
         font-size: 3rem;
     }
@@ -77,18 +79,48 @@
             box-shadow: 2px 2px 2px;
 
             &-1 {
-                top:3.4rem;
-                left:-.4rem;
-
+                top:1.8rem;
+                left:-.1rem;
             }
 
             &-2 {
-                top:3.4rem;
-                left:-.4rem;
+                top:1.4rem;
+                left:-0rem;
             }
 
             &-3 {
-                top:4.6rem;
+                top:2.3rem;
+                left: -.3rem;
+            }
+
+            &-4 {
+                top: 3.6rem;
+                left: -.8rem;
+            }
+
+            &-5 {
+                top: 2.5rem;
+                left: -.4rem;
+            }
+
+            &-6 {
+                top: 1.7rem;
+                left: -.1rem;
+            }
+
+            &-7 {
+                top:2.75rem;
+                left: -.5rem;
+            }
+
+            &-8 {
+                top: 3.5rem;
+                left: -.8rem;
+            }
+
+            &-9 {
+                top: 2.5rem;
+                left: -.4rem;
             }
         }
     }

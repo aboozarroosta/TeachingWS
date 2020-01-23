@@ -39,10 +39,16 @@ html {
     margin-bottom: 1rem; }
   .section-header__subheading {
     font-size: 1.5rem;
+    font-weight: 700;
     margin-bottom: 1rem; }
+  .section-header__description {
+    width: 70%;
+    font-size: 1.5rem;
+    text-align: justify; }
 
 .section-taught {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  text-align: center; }
   .section-taught__header {
     font-size: 3rem; }
   .section-taught__adults {
@@ -104,17 +110,36 @@ html {
       position: absolute;
       box-shadow: 2px 2px 2px; }
       .section-taught__items__caption-1 {
-        top: 3.4rem;
-        left: -.4rem; }
+        top: 1.8rem;
+        left: -.1rem; }
       .section-taught__items__caption-2 {
-        top: 3.4rem;
-        left: -.4rem; }
+        top: 1.4rem;
+        left: -0rem; }
       .section-taught__items__caption-3 {
-        top: 4.6rem; }
+        top: 2.3rem;
+        left: -.3rem; }
+      .section-taught__items__caption-4 {
+        top: 3.6rem;
+        left: -.8rem; }
+      .section-taught__items__caption-5 {
+        top: 2.5rem;
+        left: -.4rem; }
+      .section-taught__items__caption-6 {
+        top: 1.7rem;
+        left: -.1rem; }
+      .section-taught__items__caption-7 {
+        top: 2.75rem;
+        left: -.5rem; }
+      .section-taught__items__caption-8 {
+        top: 3.5rem;
+        left: -.8rem; }
+      .section-taught__items__caption-9 {
+        top: 2.5rem;
+        left: -.4rem; }
 
 .section-courses {
-  margin-top: 3rem;
-  height: 50rem;
+  margin-top: 2rem;
+  height: 45rem;
   background-color: goldenrod;
   clip-path: polygon(0 15%, 100% 0, 100% 85%, 0 100%);
   text-align: center;
@@ -218,33 +243,57 @@ html {
     margin: 50px auto; } }
 
 .footer {
-  height: 40rem;
+  height: 30rem;
   margin-top: -10rem;
   padding-top: 10rem;
   background-color: #222;
   position: relative;
   z-index: -100;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center; }
   .footer__social-media {
     /*display: block;
         position: absolute;
         bottom:0;
         right: 0;*/
-    margin-bottom: 0; }
+    align-self: center;
+    padding-bottom: 0;
+    padding-top: 1rem; }
   .footer__copyright {
     border-top: 1px solid rgba(218, 165, 32, 0.2);
-    margin-top: -1rem;
-    color: rgba(218, 165, 32, 0.7); }
+    color: rgba(218, 165, 32, 0.7);
+    align-self: center; }
+  .footer__social-label {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: rgba(218, 165, 32, 0.7);
+    background-color: rgba(49, 45, 48, 0.7); }
+  .footer__contacts {
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; }
+    .footer__contacts-header {
+      color: rgba(218, 165, 32, 0.7); }
+  .footer__list {
+    direction: ltr;
+    list-style: none;
+    line-height: 2.5rem; }
+    .footer__list-item {
+      color: rgba(211, 211, 211, 0.7); }
+    .footer__list-item span {
+      font-weight: bold; }
 
 .icon {
   display: inline-block;
   width: 2rem;
+  height: 2rem;
   margin-left: 2rem;
-  margin-right: 2rem; }
+  margin-right: 2rem;
+  margin-bottom: 1rem; }
 
 .icon-instagram {
   fill: orange; }
