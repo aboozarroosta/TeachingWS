@@ -41,56 +41,77 @@ html {
     font-size: 1.5rem;
     margin-bottom: 1rem; }
 
-.section-taught {
+.section-taught__header {
+  font-size: 3rem; }
+
+.section-taught__adults {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .section-taught__header {
-    font-size: 3rem; }
-  .section-taught__items {
-    width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  background: lightgray;
+  margin-top: 2rem;
+  padding-top: 2rem; }
+
+.section-taught__tab-header {
+  font-size: 1.9rem;
+  background-color: darkgrey;
+  display: inline;
+  overflow: hidden;
+  padding-right: .5rem;
+  padding-left: .5rem;
+  position: absolute;
+  border-radius: 3px;
+  right: 0;
+  top: -1rem; }
+
+.section-taught__items {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  background-color: lightgray; }
+  .section-taught__items__card {
+    width: 15rem;
+    background-color: darkgoldenrod;
+    margin: 2rem;
+    border-radius: 5px;
+    overflow: hidden;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-    .section-taught__items__card {
-      width: 25rem;
-      background-color: darkgoldenrod;
-      margin: 2rem;
-      border-radius: 5px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      transition: all .2s;
-      position: relative; }
-      .section-taught__items__card:hover {
-        transform: translateY(-1rem) scale(1.1); }
-    .section-taught__items__img {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      width: 18rem;
-      height: 26rem;
-      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); }
-    .section-taught__items__caption {
-      font-weight: 700;
-      background-color: goldenrod;
-      margin-bottom: 2rem;
-      top: 3rem;
-      left: -1rem;
-      padding: 1rem;
-      border-radius: 3px;
-      transform: rotate(-45deg);
-      position: absolute;
-      box-shadow: 2px 2px 2px; }
-      .section-taught__items__caption-1 {
-        top: 3.4rem;
-        left: -.4rem; }
-      .section-taught__items__caption-2 {
-        top: 3.4rem;
-        left: -.4rem; }
-      .section-taught__items__caption-3 {
-        top: 4.6rem; }
+    flex-direction: column;
+    align-items: center;
+    transition: all .2s;
+    position: relative; }
+    .section-taught__items__card:hover {
+      transform: translateY(-1rem) scale(1.1); }
+  .section-taught__items__img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 12rem;
+    height: auto;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); }
+  .section-taught__items__caption {
+    font-weight: 700;
+    background-color: goldenrod;
+    margin-bottom: 2rem;
+    top: 3rem;
+    left: -1rem;
+    padding: 1rem;
+    border-radius: 3px;
+    transform: rotate(-45deg);
+    position: absolute;
+    box-shadow: 2px 2px 2px; }
+    .section-taught__items__caption-1 {
+      top: 3.4rem;
+      left: -.4rem; }
+    .section-taught__items__caption-2 {
+      top: 3.4rem;
+      left: -.4rem; }
+    .section-taught__items__caption-3 {
+      top: 4.6rem; }
 
 .section-courses {
   height: 50rem;
@@ -112,7 +133,7 @@ html {
       box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); }
 
 .footer {
-  height: 20rem;
+  height: 40rem;
   margin-top: -10rem;
   padding-top: 10rem;
   background-color: #222;
@@ -136,7 +157,7 @@ html {
 
 .icon {
   display: inline-block;
-  width: 3rem;
+  width: 2rem;
   margin-left: 2rem;
   margin-right: 2rem; }
 
