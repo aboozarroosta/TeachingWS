@@ -1,7 +1,7 @@
 .footer {
-    height: 30rem;
+    height: auto;
     margin-top: -10rem;
-    padding-top: 10rem;
+    padding-top: 1rem;
     background-color: #222;
     position: relative;
     z-index: -100;
@@ -36,11 +36,11 @@
     }
 
     &__contacts {
+        font-size: 1.3rem;
         width: 25%;
         height: auto;
         display: flex;
         flex-direction: column;
-        margin-bottom: 1rem;
         &-header {
             color: rgba(goldenrod, .7);
         }
