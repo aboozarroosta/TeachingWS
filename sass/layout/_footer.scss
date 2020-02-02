@@ -1,6 +1,7 @@
 .footer {
     height: auto;
-    margin-top: -10rem;
+    //margin-top: -10rem;
+
     padding-top: 1rem;
     background-color: #222;
     position: relative;
@@ -78,21 +79,23 @@
 }
 
 .icon-whatsapp {
-    fill: rgb(9, 133, 40)
+    fill: rgb(9, 133, 40);
 }
 
 .icon-mail {
-    fill: rgb(233, 56, 56)
+    fill: rgb(233, 56, 56);
 }
 
 .icon-mobile {
-    fill: rgb(151, 146, 153)
+    fill: rgb(151, 146, 153);
 }
 
 .icon-location {
-    fill: rgb(255, 0, 0)
+    fill: rgb(255, 0, 0);
+    display: none;
 }
 
 .icon-linkedin {
     fill: white;
+    display: none;
 }
