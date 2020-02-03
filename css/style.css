@@ -301,7 +301,6 @@ html {
   padding-top: 1rem;
   background-color: #222;
   position: relative;
-  z-index: -100;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -358,7 +357,8 @@ html {
   fill: #e93838; }
 
 .icon-mobile {
-  fill: #979299; }
+  fill: #979299;
+  display: none; }
 
 .icon-location {
   fill: red;
