@@ -6,11 +6,17 @@
 }
 
 body{
-    background-color: lightgray;
+    //background-color: lightgray;
+    background-color: #eee;
+    margin: 0 0;
 }
 
 html {
     font-size: 80%;
+
+    @media only screen and (max-width: $bp-large) {
+        font-size: 62.5%;
+    }
 }
 .layout {
     display: flex;

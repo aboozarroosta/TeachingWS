@@ -18,6 +18,7 @@
         bottom:0;
         right: 0;*/
         align-self: center;
+        justify-items: center;
         padding-bottom: 0;
         padding-top: 1rem;
 
@@ -46,19 +47,6 @@
             color: rgba(goldenrod, .7);
         }
     }
-
-    &__list {
-        direction: ltr;
-        list-style: none;
-        line-height: 2.5rem;
-
-        &-item {
-            color: rgba(lightgray, .7);
-        }
-        &-item span {
-            font-weight: bold;
-        }
-    }
 }
 
 .icon {
@@ -68,6 +56,10 @@
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
+    @media only screen and (max-width: $bp-small) {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
 
 .icon-instagram {
