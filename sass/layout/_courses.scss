@@ -46,6 +46,10 @@
     padding: 0;
     margin: 7.5rem auto;
 }
+
+.tabs p {
+    font-size: 1.4rem;
+}
 .tabs:after {
     content: '';
     display: table;
@@ -71,6 +75,7 @@
         font-size: 1.5rem;
         font-weight: 700;
     }
+
 }
 .tabs label span {
     
@@ -92,11 +97,7 @@
     background-color:goldenrod;
     text-align: justify;
 
-    @media only screen and (max-width: $bp-medium) {
-        font-size: 1.4rem;
-    }
 }
-
 
 //The Animation
 .tab-content * {

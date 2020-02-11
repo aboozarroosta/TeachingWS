@@ -213,6 +213,9 @@ html {
   padding: 0;
   margin: 7.5rem auto; }
 
+.tabs p {
+  font-size: 1.4rem; }
+
 .tabs:after {
   content: '';
   display: table;
@@ -256,9 +259,6 @@ html {
   box-sizing: border-box;
   background-color: goldenrod;
   text-align: justify; }
-  @media only screen and (max-width: 47.5em) {
-    .tab-content {
-      font-size: 1.4rem; } }
 
 .tab-content * {
   -webkit-animation: scale 0.2s ease-in-out;
@@ -297,6 +297,7 @@ html {
     margin: 50px auto; } }
 
 .footer {
+  font-size: 1.5rem;
   height: auto;
   padding-top: 1rem;
   background-color: #222;
@@ -339,8 +340,22 @@ html {
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 1rem; }
+  @media only screen and (max-width: 63.75em) {
+    .icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      margin-left: 1rem;
+      margin-right: 1rem; } }
+  @media only screen and (max-width: 47.5em) {
+    .icon {
+      width: 3rem;
+      height: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem; } }
   @media only screen and (max-width: 27.5em) {
     .icon {
+      width: 3.5rem;
+      height: 3.5rem;
       margin-left: 1rem;
       margin-right: 1rem; } }
 
@@ -401,6 +416,8 @@ html {
       @media only screen and (max-width: 47.5em) {
         .section-contact__via__email-value, .section-contact__via__phone-value {
           flex: 0 0 100%; } }
+    .section-contact__via__phone-call {
+      text-decoration: none; }
 
 .u-bottom-margin-med {
   margin-bottom: 2rem !important; }
